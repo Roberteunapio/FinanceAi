@@ -13,7 +13,7 @@ CREATE TABLE "Transaction" (
     "name" TEXT NOT NULL,
     "type" "TransactionType" NOT NULL,
     "amount" DECIMAL(10,2) NOT NULL,
-    "catagory" "TransactionCategory" NOT NULL,
+    "category" "TransactionCategory" NOT NULL,
     "paymentMethod" "TransactionPaymentMethod" NOT NULL,
     "date" TIMESTAMP(3) NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
