@@ -8,8 +8,8 @@ const Home = async () => {
     redirect("/login");
   }
   return (
-    <div className="h-full flex items-center justify-center">
-      <UserButton showName />;
+    <div className="flex h-full items-center justify-center">
+      <UserButton showName />
     </div>
   );
 };
