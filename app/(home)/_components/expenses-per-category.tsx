@@ -8,7 +8,7 @@ interface ExpensesPerCategoryProps {
   expensesPerCategory: TotalExpensePerCategory[];
 }
 
-const ExpensePerCategory = ({
+const ExpensesPerCategory = ({
   expensesPerCategory,
 }: ExpensesPerCategoryProps) => {
   return (
@@ -33,4 +33,4 @@ const ExpensePerCategory = ({
   );
 };
 
-export default ExpensePerCategory;
+export default ExpensesPerCategory;
