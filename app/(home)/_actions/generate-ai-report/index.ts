@@ -57,6 +57,6 @@ export const generateAiReport = async ({ month }: GenerateAiReportSchema) => {
       },
     ],
   });
-  //pegar o relatório gerado pelo ChatGPT e retornar para usuário
+  //pegar o relatório gerado pelo ChatGPT e retornar para o usuário
   return completion.choices[0].message.content;
 };
